@@ -1,0 +1,17 @@
+.container {
+  /* background-color: aqua; */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleAbout {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin-bottom: 3vh;
+}

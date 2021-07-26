@@ -1,0 +1,131 @@
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 84vh;
+
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: center; */
+}
+
+.hi {
+  /* background-color: pink; */
+  display: flex;
+  width: 100%;
+  /* max-width: 80%; */
+  margin-bottom: 1em;
+}
+
+.hi h3 {
+  /* color: #fc5c1b; */
+  color: #3a2a26;
+  font-family: 'Mukta';
+  font-size: 1.5em;
+}
+
+.name {
+  /* background-color: pink; */
+  max-width: 100%;
+  /* width: 80%; */
+}
+
+.name h1 {
+  font-size: 3em;
+  color: #e15a22;
+  text-transform: uppercase;
+  font-family: 'RobotoMono';
+}
+
+.jobs {
+  margin-top: -2px;
+  max-width: 80%;
+  width: 100%;
+}
+
+.jobs h4 {
+  color: #fc5c1b;
+  font-size: 2rem;
+}
+
+.garis {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  /* width: 80%; */
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc p {
+  color: #3a2a26;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 371px) and (max-width: 468px) {
+  .hi {
+    max-width: 90%;
+  }
+
+  .name {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .name h1 {
+    font-size: 3em;
+  }
+
+  .jobs {
+    max-width: 90%;
+  }
+
+  .jobs h4 {
+    font-size: 1.5rem;
+  }
+
+  .desc p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 900px) {
+  .hi {
+    max-width: 90%;
+    margin-bottom: 0;
+  }
+
+  .name {
+    max-width: 100%;
+    width: 90%;
+  }
+
+  .name h1 {
+    font-size: 2.7em;
+  }
+
+  .jobs {
+    max-width: 90%;
+  }
+
+  .jobs h4 {
+    font-size: 1.3rem;
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 90%;
+  }
+
+  .desc p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
