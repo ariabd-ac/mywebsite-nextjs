@@ -1,0 +1,281 @@
+{
+  "portofolio" : {
+    "web" : [
+      {
+      "id" : "1",
+      "images" : "pemalicomal.png",
+      "title" : "APEMASI Pemali Comal",
+      "desc" : "Create an APEMASI system to monitor the water flow in each weir, with the weir guard sending SMS to the system then the water flow will be updated, and create a dynamic weir scheme",
+      "tech" : [
+        "PHP Native",
+        "CSS3",
+        "Bootstrap",
+        "SMS Getway",
+        "Javascript",
+        "Jquery"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Trello",
+        "Figma",
+        "Vs Code"
+      ],
+      "url" : "https://pemalicomal.com/"
+    },
+    {
+      "id" : "2",
+      "images" : "pos.png",
+      "title" : "POINT OF SALE (KASIR CV MULYA JAYA)",
+      "desc" : "Create a website application for CV cashiers. Mulya Jaya which is useful for facilitating transactions, recording in and out sales etc.",
+      "tech" : [
+        "PHP",
+        "CI 3",
+        "CSS3",
+        "Bootstrap",
+        "Javascript",
+        "Jquery"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Figma",
+        "Vs Code"
+      ],
+      "url" : "#"
+    },
+    {
+      "id" : "3",
+      "images" : "amazon.png",
+      "title" : "Amazone Clone",
+      "desc" : "Create an amazon clone application using react js and firebase, for state management using context.",
+      "tech" : [
+        "React Js",
+        "CSS3",
+        "React Context",
+        "React Hook",
+        "Firebase"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Vs Code"
+      ],
+      "url" : "https://clone-768f1.web.app/"
+    },
+    {
+      "id" : "4",
+      "images" : "wa.png",
+      "title" : "Whatsapp Clone",
+      "desc" : "Create a whatsapp clone application using react js and firebase, and chat that is sent in real time for state management using redux.",
+      "tech" : [
+        "React Js",
+        "CSS3",
+        "Redux",
+        "React Hook",
+        "Firebase"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Vs Code"
+      ],
+      "url" : "https://whatsapp-clone-7ee74.web.app/"
+    },
+    {
+      "id" : "5",
+      "images" : "snapchat.png",
+      "title" : "Snapchat clone",
+      "desc" : "Create a snapchat clone application using react js and firebase, for state management using redux.",
+      "tech" : [
+        "React Js",
+        "CSS3",
+        "Redux",
+        "React Hook",
+        "Firebase"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Vs Code"
+      ],
+      "url" : "https://snapchat-clone-88628.web.app/"
+    },
+    {
+      "id" : "6",
+      "images" : "pob.png",
+      "title" : "Petugas Oprasional Bendung App",
+      "desc" : "Create a website application then make a webview to make it easier for POB if the SMS Gateway has problems.",
+      "tech" : [
+        "PHP Native",
+        "CSS3",
+        "Bootstrap",
+        "Javascript"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Vs Code"
+      ],
+      "url" : "https://pemalicomal.com/pob"
+    },
+    {
+      "id" : "7",
+      "images" : "bodrikuto.png",
+      "title" : "Apemasi Bodri Kuto",
+      "desc" : "Create an APEMASI system to monitor the water flow in each weir, with the weir guard sending SMS to the system then the water flow will be updated, and create a dynamic weir scheme.",
+      "tech" : [
+        "PHP Native",
+        "CSS3",
+        "Bootstrap",
+        "SMS Getway",
+        "Javascript",
+        "Jquery"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Trello",
+        "Vs Code"
+      ],
+      "url" : "http://bodrikuto.com/"
+    },
+    {
+      "id" : "8",
+      "images" : "slicing2.png",
+      "title" : "Slicing Design Home Stay",
+      "desc" : "Slicing design leverages assets from figma community using react js.",
+      "tech" : [
+        "React Js",
+        "CSS3",
+        "React Hook"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Figma",
+        "Vs Code"
+      ],
+      "url" : "https://rjs-home-stay.netlify.app/"
+    },
+    {
+      "id" : "9",
+      "images" : "bangbeli.png",
+      "title" : "Bangbeli Apps",
+      "desc" : "Create a website application for an internship, then the application is made a webview as the core of the bangbeli.com mobile application.",
+      "tech" : [
+        "React Js",
+        "CSS3",
+        "React Hook",
+        "Styled-Component",
+        "React Swipeable"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Figma",
+        "Vs Code",
+        "Jira"
+      ],
+      "url" : "#"
+    },
+    {
+      "id" : "10",
+      "images" : "mern-blog.png",
+      "title" : "MERN BLOG",
+      "desc" : "MERN blog using express JS and MongoDB.",
+      "tech" : [
+        "React Js",
+        "Express Js",
+        "CSS3",
+        "SCSS",
+        "React Hook",
+        "Redux"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Figma",
+        "Vs Code"
+      ],
+      "url" : "https://github.com/ariabd-ac/MERN-BLOG"
+    },
+    {
+      "id" : "11",
+      "images" : "petarung.png",
+      "title" : "PETARUNG",
+      "desc" : "Create a PETARUNG website application to monitor land rental permits at BPSDA Pemali comal.",
+      "tech" : [
+        "CI 4",
+        "CSS3",
+        "PHP",
+        "Bootstrap"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Vs Code",
+        "Trello"
+      ],
+      "url" : "http://perijinan.pemalicomal.com/"
+    }
+],
+    "mobile" : [
+    {
+      "id" : "20",
+      "images" : "danaku.jpeg",
+      "title" : "DANAKU CLONE",
+      "desc" : "Create a clone fund mobile application for React Native learning by utilizing free assets and not for sale.",
+      "tech" : [
+        "React Native"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Figma",
+        "Vs Code",
+        "Android Devices or Emulator"
+      ],
+      "url" : "https://github.com/ariabd-ac/RN-DanakuClone"
+    },
+    {
+      "id" : "21",
+      "images" : "gojek.jpg",
+      "title" : "Gojek Clone",
+      "desc" : "Create a clone fund mobile application for React Native learning by utilizing free assets and not for sale.",
+      "tech" : [
+        "React Native"
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Figma",
+        "Vs Code",
+        "Android Devices or Emulator"
+      ],
+      "url" : "https://github.com/ariabd-ac/GOJEK-CLONE"
+    },
+    {
+      "id" : "22",
+      "images" : "mydoctor.png",
+      "title" : "My Doctor",
+      "desc" : "Create a mobile application to consult a doctor. using redux, localstorage etc. and not for sale.",
+      "tech" : [
+        "React Native",
+        "Firebase",
+        "Redux",
+        "Local Storage",
+        "Ect."
+      ],
+      "role" : "Full Stack",
+      "tools" : [
+        "Github",
+        "Figma",
+        "Vs Code",
+        "Android Devices or Emulator"
+      ],
+      "url" : "https://github.com/ariabd-ac/RN-MyDoctor"
+    }
+  ]
+  }
+}

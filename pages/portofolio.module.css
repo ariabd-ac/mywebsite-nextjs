@@ -1,0 +1,342 @@
+.container {
+  /* background-color: aqua; */
+  margin-left: 90px;
+  margin-right: 90px;
+  height: 90vh;
+  margin-bottom: 60vh;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperIcon h3 {
+  margin-left: 10px;
+  color: #3a2a26;
+  font-family: 'Mukta';
+}
+
+.name h4 {
+  color: #3a2a26;
+  font-family: 'Mukta';
+}
+
+.containerAbout {
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  align-items: center;
+}
+
+.titleAbout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 30%;
+  margin-bottom: 1vh;
+}
+
+.wraperTitle {
+  display: flex;
+  align-items: center;
+  /* background-color: yellow; */
+  margin-top: 2vh;
+  flex-direction: column;
+}
+
+.wrapperIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.education {
+  margin-top: 1vh;
+  margin-bottom: 10vh;
+}
+
+.wrapEdu {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  width: 100%;
+  align-items: center;
+  max-width: 100%;
+}
+
+.tableWrap {
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+  margin-top: 4vh;
+}
+
+.timeTable {
+  /* background-color: purple; */
+  width: 10%;
+  border-right: 2px solid #fc5c1b;
+}
+
+.contentTable {
+  /* background-color: yellow; */
+  margin-left: 20px;
+  flex: 1;
+}
+
+.timeSch {
+  color: #3a2a26;
+  font-family: 'Mukta';
+}
+
+.titleSch {
+  color: #3a2a26;
+  font-family: 'Mukta';
+}
+.descSch {
+  color: #3a2a26;
+  font-family: 'Mukta';
+}
+.servicesDesc {
+  color: #3a2a26;
+  font-family: 'Mukta';
+  text-align: center;
+}
+.listIcon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vh;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon h4 {
+  margin-top: 10px;
+}
+
+.wrapGitRepo {
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* margin-right: 40px; */
+  margin-top: 3vh;
+  overflow-x: scroll;
+  max-width: 79%;
+}
+
+.wrapGitRepo::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.containerRepo {
+  margin-right: 40px;
+}
+
+.buttonToGit {
+  padding: 8px 10px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #fc5c1b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px transparent;
+}
+
+.buttonToGit:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonToGit:active {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.descGit {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapPortofolio {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  max-width: 100%;
+}
+
+.menuPorto {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: red; */
+  flex: 1;
+  margin-bottom: 2vh;
+  margin-top: 3vh;
+}
+
+.website {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.website:hover {
+  opacity: 1;
+  transform: translateY(4px);
+}
+
+.contentPorto {
+  display: flex;
+  overflow-x: scroll;
+  /* background-color: yellow; */
+  width: 100%;
+  flex-direction: row;
+  /* padding-left: 100px; */
+}
+
+.contentPorto::-webkit-scrollbar {
+  display: none; /*Safari and Chrome*/
+}
+
+.childPorto {
+  display: flex;
+  /* background-color: lightgoldenrodyellow; */
+  /* margin-bottom: 3vh; */
+  width: 100%;
+  min-width: 100%;
+}
+
+.imageChild {
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  /* width: 100%; */
+  transition: transform 0.4s;
+}
+
+.imageChild:hover {
+  transform: scale(1.1);
+}
+
+.contentChild {
+  display: flex;
+  /* width: 100%; */
+  /* max-width: 100%; */
+  flex: 1;
+  flex-direction: column;
+  /* background-color: pink; */
+}
+
+.contentChild p {
+  max-width: 83%;
+  font-family: 'Mukta';
+}
+.contentChild h4 {
+  font-family: 'RobotoMono';
+  margin-bottom: 1vh;
+  color: #f4511e;
+}
+
+.imageChild img {
+  width: 70%;
+  height: auto;
+}
+
+.ulPorto {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+
+@media only screen and (min-width: 371px) and (max-width: 468px) {
+  .listIcon {
+    /* background-color: red; */
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .container {
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-x: hidden;
+    margin-bottom: 1vh;
+  }
+
+  .containerAbout {
+    /* background-color: green; */
+  }
+
+  .container::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+  }
+
+  .contentTable {
+    /* background-color: yellow; */
+    max-width: 70%;
+  }
+
+  .titleAbout {
+    max-width: 40%;
+  }
+
+  .timeTable {
+    /* background-color: purple; */
+    width: 20%;
+    /* border-right: 2px solid #fc5c1b; */
+  }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 900px) {
+  .container {
+    /* background-color: aqua; */
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+    height: 90vh;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    margin-bottom: 20vh;
+  }
+  .container::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+  }
+  .contentTable {
+    /* background-color: yellow; */
+    max-width: 70%;
+  }
+
+  .timeTable {
+    /* background-color: purple; */
+    width: 15%;
+    /* border-right: 2px solid #fc5c1b; */
+  }
+}

@@ -3,6 +3,7 @@
   margin-right: 50px;
   height: 84vh;
 
+  margin-top: 40px;
   /* display: flex; */
   /* flex-direction: column;
   align-items: center; */
@@ -29,8 +30,8 @@
   /* width: 80%; */
 }
 
-.name h1 {
-  font-size: 3em;
+.name h3 {
+  font-size: 30px;
   color: #e15a22;
   text-transform: uppercase;
   font-family: 'RobotoMono';
@@ -57,15 +58,43 @@
 .desc {
   display: flex;
   flex-direction: column;
+  /* margin-left: 100px; */
   align-items: center;
+  /* background-color: red; */
+  width: 100%;
 }
 
-.desc p {
+.desc h5 {
   color: #3a2a26;
-  font-size: 1.2em;
+  font-size: 0.9em;
+}
+
+.gits {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: #e15a22; */
+  width: 100%;
+}
+
+.gits img {
+  height: 100px;
 }
 
 @media only screen and (min-width: 371px) and (max-width: 468px) {
+  .gits {
+    flex-direction: column;
+  }
+
+  .gits img {
+    margin-bottom: 1vh;
+  }
+
+  .container {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10vh;
+  }
+
   .hi {
     max-width: 90%;
   }
@@ -75,7 +104,7 @@
     width: 90%;
   }
 
-  .name h1 {
+  .name h3 {
     font-size: 3em;
   }
 
@@ -87,13 +116,25 @@
     font-size: 1.5rem;
   }
 
-  .desc p {
+  .desc h5 {
     text-align: center;
     margin-bottom: 10px;
   }
 }
 
 @media only screen and (min-width: 781px) and (max-width: 900px) {
+  .gits {
+    justify-content: flex-end;
+    background-color: #fc5c1b;
+  }
+
+  .container {
+    margin-bottom: 100px;
+    overflow-x: scroll;
+  }
+  .container::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
   .hi {
     max-width: 90%;
     margin-bottom: 0;
@@ -104,7 +145,7 @@
     width: 90%;
   }
 
-  .name h1 {
+  .name h3 {
     font-size: 2.7em;
   }
 
@@ -120,11 +161,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    width: 90%;
+    justify-content: center;
+    width: 100%;
   }
 
-  .desc p {
+  .desc h5 {
     text-align: center;
     margin-bottom: 10px;
   }

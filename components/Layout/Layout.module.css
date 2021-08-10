@@ -1,5 +1,10 @@
 .content {
-  flex: 1;
+  height: 90vh;
+  overflow-x: scroll;
+}
+
+.content::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .container {
